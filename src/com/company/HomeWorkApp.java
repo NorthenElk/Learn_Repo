@@ -8,9 +8,7 @@ class HomeWorkApp {
         compareNumbers( 300, -28);
     }
     public static void printThreeWords(){
-        System.out.println("Organe");
-        System.out.println("Banana");
-        System.out.println("Apple");
+        System.out.println("Organe\nBanana\nApple");
     }
     public static void checkSumSign (int a, int b, int c){
         a = 4;
