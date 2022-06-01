@@ -9,7 +9,7 @@ class NumericalPositivity {
     public static void number(int x) {
         x = 0;
         if (x >= 0) {
-            System.out.println(x +" Это положительное число!");
+            System.out.println(x +" - положительное число!");
         } else {
             System.out.println(x + " - отрицательное число!");
         }
