@@ -1,7 +1,5 @@
 package com.Lesson2;
 
-import java.util.Arrays;
-
 public class Massive {
     public static void main(String[] args){
     arrays();
