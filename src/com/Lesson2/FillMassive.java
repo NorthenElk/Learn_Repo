@@ -1,7 +1,5 @@
 package com.Lesson2;
 
-import java.util.Arrays;
-
 public class FillMassive {
     public static void main(String[] args) {
         createArray();
