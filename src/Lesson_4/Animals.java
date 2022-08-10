@@ -1,6 +1,6 @@
 package Lesson_4;
 
-public class Animals {
+abstract class Animals {
     String name;
 
     public Animals(){
@@ -8,10 +8,6 @@ public class Animals {
     public Animals(String name){
         this.name = name;
     }
-    public void animalsInfo(){
-        System.out.println("Животное: " + name);
-    }
-    public void jump(){
-        System.out.println("Животное подпрыгнуло");
-    }
+    abstract void swim(int length);
+    abstract void run(int length);
 }
