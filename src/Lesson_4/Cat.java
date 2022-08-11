@@ -7,4 +7,14 @@ public class Cat extends Animals{
         this.name = name;
         this.color = color;
     }
+
+    @Override
+    void swim(int length) {
+
+    }
+
+    @Override
+    void run(int length) {
+
+    }
 }
