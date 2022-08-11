@@ -1,10 +1,12 @@
 package Lesson_4;
 
-public class Cat extends Animals{
-    String color;
+ class Cat extends Animals{
+    public Cat(String name, int swims, int run){
+        super(name,swims, run);
+    }
 
-    public Cat(String name, String color){
-        this.name = name;
-        this.color = color;
+    @Override
+    public boolean swims(int length) {
+        return false;
     }
 }

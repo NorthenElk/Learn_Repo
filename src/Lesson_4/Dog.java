@@ -1,10 +1,18 @@
 package Lesson_4;
 
 public class Dog extends Animals{
-    String color;
+ public Dog(String name, String color){
+        super(name);
+    }
 
-    public Dog(String name, String color){
-        this.name = name;
-        this.color = color;
+    @Override
+    boolean swim(int length) {
+
+        return false;
+    }
+
+    @Override
+    void run(int length) {
+
     }
 }
