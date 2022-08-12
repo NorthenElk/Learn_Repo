@@ -9,4 +9,14 @@ package Lesson_4;
     public boolean swims(int length) {
         return false;
     }
+
+    @Override
+    void swim(int length) {
+
+    }
+
+    @Override
+    void run(int length) {
+
+    }
 }

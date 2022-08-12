@@ -15,4 +15,14 @@ public class Dog extends Animals{
     void run(int length) {
 
     }
+
+    @Override
+    void swim(int length) {
+
+    }
+
+    @Override
+    void run(int length) {
+
+    }
 }
