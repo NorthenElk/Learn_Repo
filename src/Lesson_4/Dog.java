@@ -1,7 +1,7 @@
 package Lesson_4;
 
- abstract class Dog extends Animals{
-    Dog(int swims, int run){
-        super(swims, run);
+ class Dog extends Animals{
+    Dog(int run_limit, int swim_limit){
+        super(run_limit, swim_limit);
     }
 }
