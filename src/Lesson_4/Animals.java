@@ -4,8 +4,7 @@ abstract class Animals {
     String name;
     int swims;
     int run;
-    public Animals(String name, int swims, int run){
-        this.name = name;
+    public Animals(int swims, int run){
         this.swims = swims;
         this.run = run;
     }
