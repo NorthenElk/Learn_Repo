@@ -6,7 +6,7 @@ public class AnimalActivity {
         for (Animals an : animal)
             System.out.println(
                     an.getClass().getName() +
-                            "\nrun: " + an.run(600) +
-                            "\nswim: " + an.swim(15));
+                            "\nrun: " + an.run(130) +
+                            "\nswim: " + an.swim(5));
     }
 }
