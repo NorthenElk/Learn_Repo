@@ -20,7 +20,9 @@ public class Change_of_places {
     }
     private static <T> void ChangeOfPlaces(T[] array, int ind1, int ind2){
         T defolt = array[ind1];
+
         array[ind1] = array[ind2];
+
         array[ind2] = defolt;
     }
 }
