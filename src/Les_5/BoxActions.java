@@ -1,22 +1,6 @@
 package Les_5;
 
 
-/*public class BoxActions {
-    Apple red_apple = new Apple();
-    Apple green_apple = new Apple();
-    Apple grenny_smith = new Apple();
-
-    Orange afro = new Orange();
-    Orange prince_of_the_philippines = new Orange();
-
-    Box<Apple> first_box = new Box<Apple>(red_apple, green_apple, green_apple);
-    Box<Orange> second_box = new Box<Orange>(afro, prince_of_the_philippines);
-
-    System.out.println(first_box.compare(second_box));
-
-    Box<Orange> box3 = new Box<Orange>();
-    second_box.move(box3);
-}*/
 public class BoxActions {
     public static void main(String[] args) {
         Apple apple1 = new Apple();
