@@ -19,7 +19,7 @@ class NumericalPositivity {
 
     static void testTern(int num) {  // тернарный оператор
         String wrd = (num < 0) ? "отрицательное" : "положительное";
-        System.out.printf("%d %s число!%n", num, wrd); // %d-интежер  %s-стринг
+        System.out.printf("%d %s число!%n", num, wrd); // %d-int  %s-str
     }
 
 }
