@@ -7,7 +7,7 @@ import java.util.Arrays;
 
 public class SaveCSV {
     public static void main(String[] args) throws Exception {
-        File file = new File("C:\\Users\\a.ponomarev\\Documents\\AQA Java\\Проект\\src\\test\\target\\Wow.txt");
+        File file = new File("Super.txt");
         try {
             BufferedReader reader = new BufferedReader(new InputStreamReader(new FileInputStream(file)));
             String currenLine = reader.readLine();
@@ -22,7 +22,7 @@ public class SaveCSV {
 
     public static void bild_Of_String() {
         try (FileWriter writer = new FileWriter(
-                "C:\\Users\\a.ponomarev\\Documents\\AQA Java\\Проект\\src\\test\\target\\Wow.txt", false)
+                "First_Test.txt", false)
         ) {
             String entry = "Первая запись в проверочный файл. Добавиться или перезапишет?";
             writer.write(entry);
